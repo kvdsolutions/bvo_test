@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="6">
+        <entry key="InsightDesigner" value="true"/>
+        <entry key="LastDescribed" value="1695646220791"/>
+        <entry key="OutputFormat" value="PDF"/>
+        <entry key="masters" value="&quot;ibisamp/car"/>
+        <entry key="skipamper"/>
+        <entry key="tool" value="infoAssist,report,IAFull"/>
+    </properties>
+    <nlsValues _jt="HashMap" loadFactor="0.75" threshold="12">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Leuke titel"/>
+                <item _jt="string" index="1" value=""/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="1">
+        <item _jt="IBRFexParameter" amperFormat="A10" datadomain="COUNTRY" description="COUNTRY" index="0" multiselect="true" parent="" parmname="DFA_WH_COUNTRY" required="true">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+            <amperVar aggType="" amperIdx="11" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="COUNTRY" fieldName="car.ORIGIN.COUNTRY" format="A10" idxInChain="-1" inForm="true" isDefault="false" max="0.0" min="0.0" name="DFA_WH_COUNTRY" noSelection="true" operation="OR" parent="" proc="" sortFields="" sortOrder="ASCENDING" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+                <userDefValues _jt="array" itemsClass="string" size="0"/>
+                <defValues _jt="array" itemsClass="string" size="0"/>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values accessOrder="false" class="java.util.LinkedHashMap" loadFactor="0.75" threshold="0"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="car.ORIGIN.COUNTRY" file="ibisamp/car">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap" loadFactor="0.75" threshold="12">
+                    <entry>
+                        <key _jt="string" value="COMPARATOR"/>
+                        <value _jt="string" value="EQ"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="FIELDNAME"/>
+                        <value _jt="string" value="car.ORIGIN.COUNTRY"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>
